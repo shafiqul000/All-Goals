@@ -1,0 +1,176 @@
+body{
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    
+}
+
+main{
+    
+    height: auto;
+    margin-top: 0%;
+    margin-left: 120px;
+    margin-right: 120px;
+
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+header{
+    border: 1px solid red;
+    height: auto;
+    margin-top: 0%;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/* --------------------------------------------------------
+                         header style 
+ ---------------------------------------------------------*/
+.header{
+    border: 2px solid #173F58;
+    border-radius: 20px;
+    height: 400px;
+    background-color: #173F58;
+    
+}
+ .header-container{
+
+    display: flex;
+    align-items: center;
+
+}
+.header-title{
+    
+    width: 80%;
+    color: #FEFFFF;
+    font-weight: 700;
+    margin-top: 5px;
+    padding-left: 80px;
+}
+.header-container .header-title h1{
+
+    font-size: 250%;
+}
+.header-container .header-title .header-button{
+
+    color: #FEFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #229667;
+    padding: 10px 25px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 19px;
+}
+
+ .header-img{
+   
+    width: 50%;
+    padding-left: 110px;
+    margin-top: 15px;
+}
+
+/*--------------------------------------------------------
+                    header style END
+ --------------------------------------------------------- */
+
+ /* .............. aside style ...........*/
+
+.aside-container{
+    border: 2px solid #173F58;
+    height: 298px ;
+    width: 250px;
+    margin-top: 70px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: #173F58;
+}
+
+.aside-selectors{
+    
+    width: 230px;
+    height: 230px;
+    padding-left: 10px;
+    margin: 30px;
+    border-radius: 10px;
+
+}
+
+.selectors-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.selectors-contents a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 12px;
+    margin-right: 60px;
+
+}
+
+
+.selectors-contents .aside-button{
+
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: white;
+    width: 170px;
+    font-weight: 700;
+    height:30px ;
+
+}
+
+.selectors-contents .bl-og{
+    background-color: red;
+}
+
+
+/* ------------ end aside style ----------*/
+
+/*------------  start footer -----------*/
+
+footer{
+
+    background-color: black;
+    height: 350px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+
+}
+
+ 
+.upper-footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 80px;
+    
+}
+
+hr{
+    width: 85%;
+}
+
+.down-footer{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: 130px;
+    font-size: 120%;
+    margin-top: 70px;
+}
